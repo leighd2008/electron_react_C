@@ -1,12 +1,32 @@
 const url = require("url");
 const path = require("path");
+const { ConnectionBuilder } = require("electron-cgi");
 
 import { app, BrowserWindow } from "electron";
 
 let window: BrowserWindow | null;
 
+const connection = new ConnectionBuilder()
+  .connectTo("dotnet", "run", "--project", "./core/Core")
+  .build();
+
+connection.onDisconnect = () => {
+  console.log("lost");
+};
+
+connection.send("greeting", "Mom", (response: any) => {
+  console.log(response);
+  connection.close();
+});
+
 const createWindow = () => {
-  window = new BrowserWindow({ width: 800, height: 600 });
+  window = new BrowserWindow({ 
+    width: 800, 
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true,
+    },
+  });
 
   window.loadURL(
     url.format({

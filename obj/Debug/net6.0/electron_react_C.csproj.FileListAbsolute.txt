@@ -1,0 +1,15 @@
+/home/leighd2008/electron_react_C/bin/Debug/net6.0/electron_react_C
+/home/leighd2008/electron_react_C/bin/Debug/net6.0/electron_react_C.deps.json
+/home/leighd2008/electron_react_C/bin/Debug/net6.0/electron_react_C.runtimeconfig.json
+/home/leighd2008/electron_react_C/bin/Debug/net6.0/electron_react_C.dll
+/home/leighd2008/electron_react_C/bin/Debug/net6.0/ref/electron_react_C.dll
+/home/leighd2008/electron_react_C/bin/Debug/net6.0/electron_react_C.pdb
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.csproj.AssemblyReference.cache
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.GeneratedMSBuildEditorConfig.editorconfig
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.AssemblyInfoInputs.cache
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.AssemblyInfo.cs
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.csproj.CoreCompileInputs.cache
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.dll
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/ref/electron_react_C.dll
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.pdb
+/home/leighd2008/electron_react_C/obj/Debug/net6.0/electron_react_C.genruntimeconfig.cache
